@@ -1,0 +1,14 @@
+app:
+  log_level: debug
+  mode: debug
+  name: demo
+plugin:
+  example:
+    author: lonely
+    description: example description
+    status: true
+    version: 0.1.0
+server:
+  port: :3030
+  readtimeout: 5
+  writetimeout: 10
